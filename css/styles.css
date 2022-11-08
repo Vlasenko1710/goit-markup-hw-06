@@ -712,6 +712,7 @@ display: flex;
   border-radius: 4px;
   margin-right: 8px;
   fill: transparent;
+  transition:background-color var(--animation-link), border-color var(--animation-link), fill var(--animation-link)  ;
  }
 .input-check:checked + .check-label span{
   background-color: var(--accent-color);
